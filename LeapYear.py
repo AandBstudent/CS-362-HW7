@@ -13,5 +13,11 @@ def DivHundred(x):
     else:
         return False
 
+def DivHundredFour(x):
+    if(x % 400 == 0):
+        return True
+    else:
+        return False
+
 def LeapYear(x):
     pass
