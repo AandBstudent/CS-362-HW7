@@ -7,5 +7,11 @@ def DivFour(x):
         return True
     else:
         return False
+def DivHundred(x):
+    if(x % 100 == 0):
+        return True
+    else:
+        return False
+
 def LeapYear(x):
     pass
