@@ -3,5 +3,10 @@
 # For the multiples of Five print "Buzz"
 # For numbers which are multiples of both Three and Five
 # print "FizzBuzz"
+def check_Fizz(x):
+    if(x % 3 == 0):
+        return 'Fizz'
+    else:
+        return x
 def Fizz_Buzz():
     pass
