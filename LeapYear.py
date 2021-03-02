@@ -20,4 +20,16 @@ def DivHundredFour(x):
         return False
 
 def LeapYear(x):
-    pass
+    # Check if the year is divisible by Four
+    if(DivFour(x)):
+        # Check if the year is divisible by One Hundred
+        if(DivHundred(x)):
+            # Check if the year us divisible by Four Hundred
+            if(DivHundredFour(x)):
+                return 'is a leap year'
+            else:
+                return 'is not a leap year'
+        else:
+            return 'is a leap year'
+    else:
+        return 'is not a leap year'
