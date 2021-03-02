@@ -16,5 +16,11 @@ class TestLeapYear(unittest.TestCase):
         self.assertEqual(LeapYear.DivHundred(2000), True)
         self.assertEqual(LeapYear.DivHundred(2019), False)
 
+    def test_DivHundredFour(self):
+        self.assertEqual(LeapYear.DivHundredFour(2200), False)
+        self.assertEqual(LeapYear.DivHundredFour(4000), True)
+        self.assertEqual(LeapYear.DivHundredFour(2000), True)
+        self.assertEqual(LeapYear.DivHundredFour(2100), False)
+
 if __name__ == '__main__':
     unittest.main()
