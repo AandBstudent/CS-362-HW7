@@ -15,6 +15,11 @@ def check_Buzz(x):
         return 'Buzz'
     else:
         return x
+def check_FizzBuzz(x):
+    if((x % 3 == 0) and (x % 5 == 0)):
+        return 'FizzBuzz'
+    else:
+        return x
 
 def Fizz_Buzz():
     pass
